@@ -1,0 +1,33 @@
+
+:root {
+  --base-clr: #ffffff;
+  --line-clr: #d9d9de;
+  --hover-clr: #bcbfcd;
+  --text-clr: #000000;
+  --accent-clr: #5e63ff;
+  --secondary-text-clr: #424349;
+}
+
+.main{
+  background-color: var(--accent-clr);
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  height: 100dvh;
+  padding: 12px;
+
+}
+
+#chat{
+  max-width: 100vw;
+  border-color: var(--line-clr);
+  border-radius: 12px;
+  border-bottom: 12px;
+  display: flex;
+  /* padding: 12px; */
+  flex-direction: column;
+  flex-grow: 4;
+  background-color: var(--base-clr);
+  align-items: flex-end;
+  overflow: auto;
+}
